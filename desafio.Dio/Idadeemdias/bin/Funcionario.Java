@@ -1,5 +1,5 @@
 public class Consultor extends Funcionario {
-    private double valorHora;
+    private double valorHora; // criar construtor
     private long horasTrabalhadas;
   
     public Consultor(String nome, long cpf, double valorHora, long horasTrabalhadas) {
@@ -18,7 +18,7 @@ public class Consultor extends Funcionario {
     }
   
     public void setValorHora(double valorHora) {
-      this.valorHora = valorHora;
+      this.valorHora = valorHora; //criar setgets
     }
   
     public long getHorasTrabalhadas() {
